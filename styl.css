@@ -1,0 +1,52 @@
+body {
+    display: block;
+    margin: 0px;
+    
+}
+
+
+body {background-color: aqua;
+}
+
+
+
+
+
+.topbar_menu {
+    display: flex;
+    background-color:rgb(32, 191, 209);
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+   }
+nav {
+    display:flex;
+    gap: 1rem;
+}
+nav a {
+    color: rgb(8, 58, 108);
+    text-decoration: none;
+}
+
+.titulo {text-align: center;
+margin: 2rem;}
+
+
+.textporfol {
+    height: 600px;
+    background-image:  url("assets/UOC.jpg");
+    background-size: cover;
+    background-position: center;
+    }
+
+/*.presentacion-texto {
+    text-align: center;
+ }*/   
+h2 {text-align: center;
+}
+   
+.texto-comentario {
+    display: flex;
+    width: 80vw;
+    margin: 0 auto;
+    }
