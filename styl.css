@@ -28,12 +28,17 @@ nav a {
     text-decoration: none;
 }
 
-.titulo {text-align: center;
-margin: 2rem;}
+.titulo {
+text-align: center;
+margin: 2rem;
+padding: 2rem;
+}
 
 
 .textporfol {
     height: 600px;
+    width: 95vw;
+    margin: 2rem;
     background-image:  url("assets/UOC.jpg");
     background-size: cover;
     background-position: center;
@@ -46,15 +51,30 @@ margin: 2rem;}
 
 /*.presentacion-texto {
     text-align: center;
- }*/   
-h2 {text-align: center;
+ }*/
+ 
+/* .title {
+text-align: center;
+margin: 2rem;
+padding: 2rem;
+}*/
+
+h2 {
+text-align: center;
+margin: 2rem;
+padding: 2rem;
 }
    
 .texto-comentario {
-    display: flex;
-    width: 80vw;
-    margin: 10rem;
-    gap: 2rem;  
+    display: inline-flex;
+    width: 95w;
+    margin: 3rem;
+    gap: .5rem;
+    align-items: center;
+    /*padding: 2rem;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center ;*/  
 }
 .texto-comentario > img {
     border-image-width: 1rem;
@@ -62,7 +82,8 @@ h2 {text-align: center;
     border-radius: 2rem;
     overflow: hidden;
     box-shadow: 0 0 15px 15px rgb(8, 58, 108);
-    gap: 10rem;
+    gap: 3rem;
+    margin: 2rem;
 }
 .cards { 
     display: flex;
@@ -87,7 +108,8 @@ h2 {text-align: center;
 
 .card > button {
     margin: 1rem;
-    padding: .5rem 1rem;
+    padding: .5 1rem;
+
 
 }
 .exper-images {
@@ -113,14 +135,51 @@ h2 {text-align: center;
     justify-content: center;
 
 }
-h3 {
-    display: inline-flex;
-    justify-content: center;
-    gap: 5rem;
 
+/*h3 {
+    display: inline-flex;
+    align-items: center;
+    
 }
-.afic-images >img {
+.afic-images > img {
     display: inline-flex;
     justify-content: center;
-    gap: 5rem;
+    align-items: center;
+
+}*/
+.afic-images {
+    /*display: flex;
+    justify-items: center;
+    border: #222;*/
+    box-shadow: 0 0 15px 15px rgb(8, 58, 108);
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: rgb(32, 191, 209);
+    display: flex;
+    margin: 2rem;
+    gap: .5rem;
+    justify-content: space-evenly;
+}
+
+
+.article-afic {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 1rem;
+    margin: 2rem;
+
 }  
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+        
+}
+.footer-images {
+    display: flex;
+    justify-content: center;
+    gap: 15rem;
+    margin-bottom: 5rem;
+}   
