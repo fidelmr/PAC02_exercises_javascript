@@ -34,6 +34,52 @@ margin: 2rem;
 padding: 2rem;
 }
 
+/*MENU_CV*/
+.menu_indice {
+    /*display: block;
+    justify-content: center;
+    margin: 3rem;
+    padding: 5rem;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+        
+
+}
+.enlaces-pag > a {
+    /*display: inline-flex;*/
+    background-color:rgb(32, 191, 209);
+    /*justify-content: space-evenly;*/ 
+    /*align-items: center;*/
+    margin: 2rem;
+    padding: 1rem 2rem;
+   text-decoration: none;
+    /*gap: 2rem;*/
+    /*width: 100%;*/
+}
+.enlace-a > p {
+    display: flex;
+    justify-content: center;
+}
+.datos > p {
+    display: flex;
+    justify-content: center;
+}
+.experiencia_laboral > p {
+    display: flex;
+    justify-content: center;    
+}
+.estudios > p {
+    display: flex;
+    justify-content: center;    
+}
+/*.table, th, td {
+    border: 1px solid #222;
+    justify-content: center;
+    margin: 5rem auto;  
+}*/      
 
 .textporfol {
     height: 600px;
@@ -61,7 +107,8 @@ padding: 2rem;
 
 h2 {
 text-align: center;
-margin: 2rem;
+margin-top: 2rem;
+/*padding: 2rem;*/
 padding: 2rem;
 }
    
@@ -182,4 +229,38 @@ footer {
     justify-content: center;
     gap: 15rem;
     margin-bottom: 5rem;
-}   
+}
+/*CONTACTO PAGE*/
+.image-laptop {
+    display: flex;
+    justify-content: center;
+}
+.hablemos {
+    display: flex;
+    justify-content: flex-start;
+    margin: 2rem;
+}
+.texto-contacto {
+    display: flex;
+    justify-content: flex-start;
+    margin: 2rem;
+}
+.campos {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-left: 4rem;
+    margin-inline-end:25rem;
+}
+.texto-comentario {
+    display: inline-flex;
+    flex-direction: column;
+    justify-items: start;
+    margin: 2rem;
+}
+.hablemos-parte-a {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-left: 2rem;   
+}
