@@ -17,7 +17,7 @@ body {background-color: aqua;
     display: flex;
     background-color:
     rgb(32, 191, 209);
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
     padding: .25rem 2rem;
     position: sticky;
@@ -92,13 +92,14 @@ padding: 2rem;
 .textporfol {
     /*height: 600px;
     width: 95vw;*/
-display: flex;
+/*display: flex;*/
 width: 100%;
-height: auto;   
-    /*margin: 2rem;*/
-    background-image:  url("assets/UOC.jpg");
+height: auto;
+/*justify-items: center;*/   
+    margin: 3rem;
+    /*background-image:  url("assets/UOC.jpg");
     /*background-size: cover;*/
-    /*background-position: center;
+  /*background-position: center;
     border-image-width: 1rem;
     border: 1px solid rgb(97, 81, 164);
     border-radius: 2rem;
