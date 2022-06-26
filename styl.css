@@ -90,8 +90,10 @@ padding: 2rem;
 }*/      
 
 .textporfol {
-    height: 600px;
-    width: 95vw;
+    /*height: 600px;
+    width: 95vw;*/
+width: 100%;
+height: auto;   
     margin: 2rem;
     background-image:  url("assets/UOC.jpg");
     background-size: cover;
