@@ -92,17 +92,18 @@ padding: 2rem;
 .textporfol {
     /*height: 600px;
     width: 95vw;*/
+display: flex;
 width: 100%;
 height: auto;   
-    margin: 2rem;
+    /*margin: 2rem;*/
     background-image:  url("assets/UOC.jpg");
     /*background-size: cover;*/
-    background-position: center;
+    /*background-position: center;
     border-image-width: 1rem;
     border: 1px solid rgb(97, 81, 164);
     border-radius: 2rem;
     overflow: hidden;
-    box-shadow: 0 0 15px 15px rgb(8, 58, 108);
+    box-shadow: 0 0 15px 15px rgb(8, 58, 108);*/
     }
  
      
