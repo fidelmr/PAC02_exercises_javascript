@@ -33,6 +33,9 @@ nav a {
     text-decoration: none;
 }
 
+
+
+
 .titulo {
 text-align: center;
 margin: 2rem;
@@ -279,4 +282,33 @@ footer {
     flex-direction: column;
     justify-content: start;
     margin-left: 2rem;   
+}
+
+
+/*MEDIA QUERIES*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body {background-color: pink; }
+ }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    body {background-color: rgb(162, 137, 141); } 
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    body {background-color: rgb(122, 170, 248); } 
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    body {background-color: rgb(16, 222, 241); } 
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) { 
+    body {background-color: rgb(95, 152, 206); } 
+
 }

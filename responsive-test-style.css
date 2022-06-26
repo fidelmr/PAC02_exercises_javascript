@@ -1,0 +1,77 @@
+body {
+    display: block;
+    margin: 0px;
+    
+}
+
+
+body {background-color: aqua;
+}
+
+
+
+
+
+.topbar_menu {
+    FONT-VARIANT: JIS04;
+    display: flex;
+    background-color:
+    rgb(32, 191, 209);
+    justify-content: space-between;
+    align-items: center;
+    padding: .25rem 2rem;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+   }
+nav {
+    display:flex;
+    gap: 1rem;
+}
+nav a {
+    color: rgb(8, 58, 108);
+    text-decoration: none;
+}
+
+.textporfol {
+    /*height: 600px;*/
+    /*width: 95vw;*/
+    /*margin: 2rem;*/
+    background-image:  url("assets\UOC600.png");
+    /*background-size: cover;*/
+    background-position: center;
+    /*border-image-width: 1rem;*/
+    border: 1px solid rgb(97, 81, 164);
+    border-radius: 2rem;
+    overflow: hidden;
+    /*box-shadow: 0 0 15px 15px rgb(8, 58, 108);*/
+    }
+
+
+    /*MEDIA QUERIES*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body {background-color: pink; }
+ }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    body {background-color: rgb(162, 137, 141); } 
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    body {background-color: rgb(122, 170, 248); } 
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    body {background-color: rgb(16, 222, 241); } 
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) { 
+    body {background-color: rgb(95, 152, 206); } 
+
+}
