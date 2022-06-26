@@ -96,7 +96,7 @@ width: 100%;
 height: auto;   
     margin: 2rem;
     background-image:  url("assets/UOC.jpg");
-    background-size: cover;
+    /*background-size: cover;*/
     background-position: center;
     border-image-width: 1rem;
     border: 1px solid rgb(97, 81, 164);
