@@ -33,19 +33,19 @@ nav a {
     text-decoration: none;
 }
 
-.textporfol {
+/*.textporfol {
     /*height: 600px;*/
     /*width: 95vw;*/
     /*margin: 2rem;*/
-    background-image:  url ("assets\grafic_html5.png");
+    /*background-image:  url ("assets\grafic_html5.png");*/
     /*background-size: cover;*/
-    background-position: center;
+    /*background-position: center;
     /*border-image-width: 1rem;*/
-    border: 1px solid rgb(97, 81, 164);
+    /*border: 1px solid rgb(97, 81, 164);
     border-radius: 2rem;
     overflow: hidden;
-    /*box-shadow: 0 0 15px 15px rgb(8, 58, 108);*/
-    }
+    /*box-shadow: 0 0 15px 15px rgb(8, 58, 108);
+    }*/
 
 
     /*MEDIA QUERIES*/
@@ -56,8 +56,13 @@ nav a {
  }
 
  img {
-    width: 100%;
+    width: 80vw;
     height: auto;
+    border: 1px solid rgb(97, 81, 164);
+    border-radius: 2rem;
+    overflow: hidden;
+    box-shadow: 0 0 15px 15px rgb(8, 58, 108);
+    padding: 2rem;
  }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
