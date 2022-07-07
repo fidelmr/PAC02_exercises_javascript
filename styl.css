@@ -1,15 +1,13 @@
 body {
     display: block;
-    margin: 0px;
-    
+    margin: 0px;    
+}
+/* un espacio entre reglas */
+body {
+    background-color: aqua;
 }
 
-
-body {background-color: aqua;
-}
-
-
-
+/* no dejar tantos espacios en blancos */
 
 
 .topbar_menu {
@@ -42,10 +40,10 @@ margin: 2rem;
 padding: 2rem;
 }
 
-/*MENU_CV*/
+/*MENU_CV*/   /*<=Comentario que aporta valor*/
 .menu_indice {
     /*display: block;
-    justify-content: center;
+    justify-content: center;   <= Comentarios innecesarios, si no se usan deberias borrarlos
     margin: 3rem;
     padding: 5rem;*/
     display: flex;
@@ -56,6 +54,10 @@ padding: 2rem;
         
 
 }
+
+/* La especifidad de las reglas es recomendable usar clases y dejar los tags para elementos
+mas dificil de acceder como son los pseudoElementos :before, :after, :hover, etc */
+
 .enlaces-pag > a {
     /*display: inline-flex;*/
     background-color:rgb(32, 191, 209);
@@ -154,12 +156,16 @@ padding: 2rem;
                                justify-content: space-evenly;
                                gap: 5rem;*/
                                /*flex-direction: row;*/
-display: flex;
-justify-content: flex-start;
-gap: 5rem;
-flex-wrap: wrap;
-margin: 10rem auto;
-width: 80vw;                               
+    display: flex;
+    justify-content: flex-start;
+    gap: 5rem;
+    flex-wrap: wrap;
+    margin: 10rem auto;
+    width: 80vw;                               
+
+    /*para mejor lectura de código una pequeña sangria a la izquierda
+    ten en cuenta que ahora solo tú ves el código, pero si te vas a dedicar profesionalmente 
+    tu código lo verán muchas personas más*/
 }
 .card {
                            display: flex;
@@ -247,17 +253,19 @@ flex-basis: 15rem;
 
 footer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     margin-top: 5rem;
-        
+    text-align: center;
 }
+/* 1 espacio entre reglas */
 .footer-images {
     display: flex;
     justify-content: center;
     gap: 1rem;
     margin-bottom: 5rem;
-    margin-left: 5rem;
 }
+
 /*CONTACTO PAGE*/
 .image-laptop {
     display: flex;
@@ -321,15 +329,18 @@ footer {
     body {background-color: rgb(95, 152, 206); } 
 
 }
+/* espacios  */
 * {
     box-sizing: border-box;
-  }
+}
   
 
-  .footer-images {
+.footer-images {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
+}
+
+/* todas las reglas pegadas a la izquierda o con sangria, no ambas */
   .footer-images > div{
     /*background-color: rgb(237, 231, 242);*/
     /*border: .25px solid;*/
@@ -411,3 +422,11 @@ footer {
             }
     }
 
+
+
+/* En cuanto al uso de las mediaqueries, el 90% de las empresa usan mobile first y los 3 tamaños  
+    establecidos son min-width: 480, y min-width: 765 y min-width: 1224 y en algunos casos solo
+    se diseña para movil y escritorio.
+    No es recomendable usar tantas mediaQueries y menos en ambos sentidos los min-width son para 
+    mobile first y los max-width son para desktop first.
+*/
